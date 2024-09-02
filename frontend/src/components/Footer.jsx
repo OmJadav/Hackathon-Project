@@ -2,11 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-600 text-white py-6">
+    <footer className="bg-black text-white py-6">
       <div className="container mx-auto text-center">
         <p>
-          &copy; {new Date().getFullYear()} [Your Club Name]. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} NW Freedom. All rights reserved.
         </p>
         <div className="mt-4 flex justify-center space-x-4">
           <a href="#" className="hover:text-gray-200">

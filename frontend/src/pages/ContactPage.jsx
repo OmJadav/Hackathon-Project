@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+
 const ContactPage = () => {
   return (
     <section className="bg-secondary-light dark:bg-secondary-dark py-20 px-6">
@@ -8,7 +9,7 @@ const ContactPage = () => {
         {/* Contact Form */}
         <div
           id="contact"
-          className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8"
+          className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform transition-all duration-500 hover:shadow-xl hover:scale-105"
         >
           <h2 className="text-3xl font-bold text-primary-light dark:text-primary-dark mb-8 text-center">
             Get in Touch
@@ -22,26 +23,26 @@ const ContactPage = () => {
               type="text"
               name="name"
               placeholder="Your Name"
-              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-cyan dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-cyan dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 transition duration-300 ease-in-out transform hover:-translate-y-1"
               required
             />
             <input
               type="email"
               name="email"
               placeholder="Your Email"
-              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-cyan dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-cyan dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 transition duration-300 ease-in-out transform hover:-translate-y-1"
               required
             />
             <textarea
               placeholder="Your Message"
               name="message"
-              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-cyan dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+              className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-cyan dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 transition duration-300 ease-in-out transform hover:-translate-y-1"
               rows="5"
               required
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-red-600 hover:bg-red-800 text-white font-semibold py-3 px-6 rounded-lg transition"
+              className="w-full bg-red-600 hover:bg-red-800 text-white font-semibold py-3 px-6 rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105"
             >
               Send Message
             </button>
@@ -53,19 +54,19 @@ const ContactPage = () => {
             <div className="flex justify-center space-x-6">
               <a
                 href="#"
-                className="text-accent-cyan hover:text-accent-cyan/80 text-lg font-medium transition"
+                className="text-accent-cyan hover:text-accent-cyan/80 text-lg font-medium transition-colors duration-300 ease-in-out"
               >
                 Facebook
               </a>
               <a
                 href="#"
-                className="text-accent-cyan hover:text-accent-cyan/80 text-lg font-medium transition"
+                className="text-accent-cyan hover:text-accent-cyan/80 text-lg font-medium transition-colors duration-300 ease-in-out"
               >
                 Twitter
               </a>
               <a
                 href="#"
-                className="text-accent-cyan hover:text-accent-cyan/80 text-lg font-medium transition"
+                className="text-accent-cyan hover:text-accent-cyan/80 text-lg font-medium transition-colors duration-300 ease-in-out"
               >
                 Instagram
               </a>
@@ -80,7 +81,7 @@ const ContactPage = () => {
               Contact Details
             </h2>
             <div className="flex flex-col gap-8">
-              <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6">
+              <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 transform transition-transform duration-500 hover:scale-105">
                 <h3 className="text-xl font-semibold text-primary-light dark:text-primary-dark mb-2">
                   Bhavin Parmar
                 </h3>
@@ -96,13 +97,13 @@ const ContactPage = () => {
                 <p className="text-gray-700 dark:text-gray-300">
                   <a
                     href="tel:+919974088802"
-                    className="text-accent-cyan hover:underline"
+                    className="text-accent-cyan hover:underline transition-transform duration-300 ease-in-out transform hover:scale-110"
                   >
                     (997) 408-8802
                   </a>
                 </p>
               </div>
-              <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6">
+              <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 transform transition-transform duration-500 hover:scale-105">
                 <h3 className="text-xl font-semibold text-primary-light dark:text-primary-dark mb-2">
                   Arpita Parmar
                 </h3>
@@ -118,7 +119,7 @@ const ContactPage = () => {
                 <p className="text-gray-700 dark:text-gray-300">
                   <a
                     href="tel:+918780752326"
-                    className="text-accent-cyan hover:underline"
+                    className="text-accent-cyan hover:underline transition-transform duration-300 ease-in-out transform hover:scale-110"
                   >
                     (878) 075-2326
                   </a>

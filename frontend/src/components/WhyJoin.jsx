@@ -55,58 +55,6 @@ import { Link } from "react-router-dom";
 
 const WhyJoin = () => {
   return (
-    // <section className="bg-gray-100 dark:bg-gray-800 py-10 px-6">
-    //   <div className="max-w-5xl mx-auto text-center">
-    //     <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-6">
-    //       Why Join NW Freedom?
-    //     </h2>
-    //     <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-    //       Discover the transformative impact of joining NW Freedom and become a
-    //       part of a community committed to positive change.
-    //     </p>
-    //     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    //       <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
-    //         <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
-    //         <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-    //           **Empowerment and Support**
-    //         </h3>
-    //         <p className="text-gray-600 dark:text-gray-400">
-    //           Gain access to resources and a supportive community dedicated to
-    //           helping you achieve personal and professional growth.
-    //         </p>
-    //       </div>
-    //       <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
-    //         <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
-    //         <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-    //           **Engage in Meaningful Projects**
-    //         </h3>
-    //         <p className="text-gray-600 dark:text-gray-400">
-    //           Participate in impactful projects and initiatives that contribute
-    //           to community well-being and make a tangible difference.
-    //         </p>
-    //       </div>
-    //       <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
-    //         <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
-    //         <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-    //           **Expand Your Network**
-    //         </h3>
-    //         <p className="text-gray-600 dark:text-gray-400">
-    //           Connect with like-minded individuals, professionals, and
-    //           organizations to build valuable relationships and collaborations.
-    //         </p>
-    //       </div>
-    //     </div>
-    //     <div className="mt-8">
-    //       <Button
-    //         color="primary"
-    //         href="/join"
-    //         className="py-3 px-6 text-lg font-semibold"
-    //       >
-    //         Join Us Today
-    //       </Button>
-    //     </div>
-    //   </div>
-    // </section>
     <section className="bg-gray-100 dark:bg-gray-800 py-10 px-6">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-6">
@@ -117,8 +65,8 @@ const WhyJoin = () => {
           empowering individuals with mental disabilities to achieve
           self-reliance and social participation.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ">
             <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
               Empowerment Through Education
@@ -130,7 +78,7 @@ const WhyJoin = () => {
               economically self-reliant.
             </p>
           </div>
-          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
+          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center  transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ">
             <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
               Foster Social Participation
@@ -142,7 +90,7 @@ const WhyJoin = () => {
               engagement.
             </p>
           </div>
-          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
+          <div className="bg-white dark:bg-gray-900  rounded-lg p-6 text-center shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ">
             <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
               Promote Individual Self-Reliance
@@ -153,7 +101,7 @@ const WhyJoin = () => {
               lead a fulfilling and self-sufficient life.
             </p>
           </div>
-          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
+          <div className="bg-white dark:bg-gray-900  rounded-lg p-6 text-center shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ">
             <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
               Champion Welfare and Rehabilitation
@@ -164,7 +112,7 @@ const WhyJoin = () => {
               promote the well-being of individuals with mental disabilities.
             </p>
           </div>
-          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
+          <div className="bg-white dark:bg-gray-900  rounded-lg p-6 text-center shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ">
             <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
               Create Lasting Impact
@@ -175,7 +123,7 @@ const WhyJoin = () => {
               for individuals with mental disabilities.
             </p>
           </div>
-          <div className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-center">
+          <div className="bg-white dark:bg-gray-900  rounded-lg p-6 text-center shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ">
             <FaCheckCircle className="text-green-500 text-3xl mb-4 mx-auto" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
               Join a Dedicated Community

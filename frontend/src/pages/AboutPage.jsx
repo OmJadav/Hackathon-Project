@@ -2,80 +2,88 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <section id="about" className="py-16 px-6 bg-white dark:bg-gray-800">
+    <section
+      id="about"
+      className="py-16 px-6 bg-white dark:bg-gray-800 animate-slide-in-top"
+    >
       <div className="container mx-auto">
-        <div>
-          <div className="w-full">
-            <h2 className="text-gray-400 font-bold uppercase mb-2">About</h2>
-            <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-              NW Freedom
-            </h1>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Greetings from “New Way Education and Rural Development Trust”
+        <div className="w-full">
+          <h2 className="text-blue-500 dark:text-teal-400 font-semibold uppercase mb-2 tracking-wider">
+            About Us
+          </h2>
+          <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-8 leading-tight">
+            NW Freedom: Empowering Rural Communities
+          </h1>
+          <div className="space-y-6">
+            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              Greetings from{" "}
+              <span className="font-medium text-gray-900 dark:text-gray-100">
+                New Way Education and Rural Development Trust
+              </span>
+              . Rural areas of India often lack special schools and expert
+              facilities. Big cities have these resources, but rural parents
+              often cannot afford them.
             </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Rural areas of India do not have special schools, experts start
-              therapy centres and Special schools in big cities, as rural
-              parents have poor paying capacity.
+            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              Dholka, a small taluka city 35 kilometers from Ahmedabad, lacked a
+              special school for intellectually challenged children until 2010.
+              A young man from Dholka trained in special education and started
+              the{" "}
+              <span className="font-medium text-gray-900 dark:text-gray-100">
+                New Way Education and Rural Development Trust
+              </span>{" "}
+              and{" "}
+              <span className="font-medium text-gray-900 dark:text-gray-100">
+                Freedom Daycare Center
+              </span>
+              . This organization serves about 39 individuals with intellectual
+              challenges.
             </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Dholka is a good example, a small taluka city, 35 kilometres away
-              from Ahmedabad. It had Aaganvadi centers, Primary Schools,
-              Secondary Schools, colleges, hospitals etc in the city and Taluka,
-              but there was no Special School for Intellectually challenged
-              children. In the year 2010, a young man from Dholka took training
-              in special education and started an endeavour. He started “New way
-              Education and rural development trust” and “Freedom daycare center
-              “. The organization serves about 39 Intellectually challenged
-              individuals in rented accommodation, 4 special teachers are
-              employed, but paying salary to them is Difficult, as parents don't
-              have paying capacity. The trust is trying to provide the best
-              possible facilities to the maximum number of intellectually
-              challenged individuals in the city of Dholka and the
-              interconnected village around it.{" "}
+            <div className="border-l-4 border-blue-500 dark:border-teal-400 pl-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              <p>
+                The trust strives to provide the best possible facilities,
+                despite financial difficulties, and aims to integrate
+                intellectually challenged individuals into mainstream society
+                through education, occupation, sports, art, and culture.
+              </p>
+            </div>
+            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              Our goal is to connect these individuals to the mainstream world
+              and provide them with opportunities for growth and development.
             </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Organization's goal is to connect intellectually challenged people
-              to the mainstream world in the context of education, occupation,
-              sports, art and culture etc.
+          </div>
+
+          <div className="mt-12">
+            <h3 className="text-3xl font-bold text-blue-600 dark:text-teal-400 mb-4">
+              Our Services
+            </h3>
+            <ul className="list-disc list-inside space-y-2 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              <li>Sports, Music, Dance, Art, and Craft Education</li>
+              <li>Physiotherapy</li>
+              <li>Prevocational and Vocational Training</li>
+              <li>Assistance for Employment/Self-employment</li>
+            </ul>
+          </div>
+
+          <div className="mt-12 bg-blue-50 dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold text-blue-600 dark:text-teal-400 mb-4">
+              Achievements
+            </h3>
+            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              We are proud of our students' achievements in various
+              competitions, including Drawing-Painting, Dance, and Music. Our
+              students have also participated in the Special Olympics at state,
+              national, and international levels.
             </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Freedom Day Care Centre provides the following services along with
-              special education.
+            <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              A highlight of our journey was a student winning a Silver Medal in
+              Cycling at the Special Olympics World Summer Games 2019 in Abu
+              Dhabi.
             </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Sports, Music, Dance, Art and Craft Education.
-            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Physiotherapy
-            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Prevocational and vocational training.
-            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Assistance for Employment/Self-employment.
-            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              The organisation is proud of the achievements of its students.
-              They participated in Drawing-painting competitions, Dance and
-              music competitions, and won prizes. Students have participated in
-              the “Special Olympics” at state, National and International
-              levels.
-            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Very Proud Moment — A Student of the organisation was selected for
-              Special Olympics World Summer Games-2019 at Abu Dhabi UAE and won
-              Silver Medal in Cycling.
-            </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              On the occasion of World Disability Day 2018 celebration Freedom
-              Day Care Center New Way Educational and Rural Development Trust,
-              Dholka, Dist. Ahmedabad Gujarat organised a stage show for special
-              children. All category specially abled performers participated
-              from across Gujarat and performed Dance, Singing, Fashion show,
-              drama etc and set a New Records Maximum Special Child Performed On
-              Stage in World Records India on 2nd December 2018 at Kalikund,
-              Dholka.
+            <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              In 2018, our organization set a World Record for the maximum
+              number of specially-abled children performing on stage during the
+              World Disability Day celebration.
             </p>
           </div>
         </div>

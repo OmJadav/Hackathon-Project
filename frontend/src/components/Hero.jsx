@@ -1,19 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import img1 from "../assets/ngo-1.jpg";
+import img2 from "../assets/ngo-2.jpg";
+import img3 from "../assets/ngo-3.jpg";
 
 const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: "https://nwfreedom.org/wp-content/uploads/2023/12/logo.png",
+      image: img1,
     },
     {
       id: 2,
-      image: "https://nwfreedom.org/wp-content/uploads/2023/12/logo.png",
+      image: img2,
     },
     {
       id: 3,
-      image: "https://nwfreedom.org/wp-content/uploads/2023/12/logo.png",
+      image: img3,
     },
   ];
 

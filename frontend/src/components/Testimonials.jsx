@@ -36,7 +36,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 flex flex-col items-center"
+              className="bg-white dark:bg-gray-900 ounded-lg p-6 flex flex-col items-center shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 "
             >
               <div className="relative mb-4">
                 <FaQuoteLeft className="absolute top-0 left-0 text-accent-cyan text-4xl dark:text-accent-cyan opacity-50" />
